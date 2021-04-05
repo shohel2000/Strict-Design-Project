@@ -1,0 +1,308 @@
+@import url(href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet");
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: 0px;
+}
+h1,h2,h3,h4,h5,h6,a,p,button,img{
+	margin: 0px;
+	padding: 0px;
+	 font-family: 'Lato', sans-serif;
+}
+ul,ol,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+p{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+   /* font-family: 'Lato', sans-serif;*/
+/*header part start*/
+.header{
+	background: #f6f9f9;
+}
+.header_part{
+	background: #f6f9f9;
+}
+.menu_bar{
+	padding: 22px 0px;
+}
+.logo a{
+	font-size: 30px;
+}
+.menu{
+	margin-top: 10px;
+}
+.main_menu li{
+	padding: 0px 25px;
+}
+.main_menu li:last-child{
+	margin-right: 0px;
+}
+.main_menu li a{
+	font-size: 24px;
+	text-decoration: none;
+	color: #222222;
+}
+.main_menu li a:hover{
+	color: #15a4fa;
+}
+/*header part end*/
+/*bannar part start*/
+.bannar_img{
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.bannar_con{
+	top: 0;
+/*	left: 0%;*/
+}
+.bannar_con h1{
+	font-size: 120px;
+	color: #ffffff;
+	font-weight: 700;
+	padding-top: 175px;
+}
+.bannar_con .line{
+	padding: 5px 0px 33px;
+	/*color: #15a4fa;*/
+}
+.bannar_con p{
+	padding-bottom: 60px;
+}
+.bannar_con .button{
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+	padding: 13px 36px;
+	border: none;
+	border: 1px solid #15a4fa;
+	border-radius: 5px;
+	background: rgba(0, 0, 0, .1);
+	transition: .4s;
+}
+.bannar_con .button:hover{
+	background-color: #15a4fa;
+}
+/*.bannar_con button{
+	padding-bottom: 178px;
+}*/
+.bannar_con i{
+	padding: 174px 0px 91px;
+}
+/*bannar part end*/
+/*simple Part start*/
+.simple_part{
+	padding: 73px 0px 106px;
+	background: #f6f9f9;
+}
+.simple_part .sim_con{
+	text-align: center;
+}
+.simple_part .sim_con h1{
+	font-size: 40px;
+	font-weight: 400px;
+}
+.simple_part .sim_con p{
+	padding-top: 25px;
+	color: #999999;
+}
+
+/*simple Part end*/
+/*design part start*/
+.design_part{
+	background: #ffff;
+}
+.dgn_box{
+	position: relative;
+	margin: 0 auto;
+}
+.dgn_img{
+	position: absolute;
+	top: 20%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+.dgn_con{
+	text-align: center;
+}
+.dgn_con h4{
+	font-size: 22px;
+	font-weight: 400;
+	color: #2d3950;
+	padding: 27px 0px 14px;
+}
+.dgn_con p{
+	font-size: 15px;
+	color: #999999;
+	padding: 0px 20px;
+	padding-bottom: 62px;
+}
+/*design part end*/
+/*gellary part start*/
+.gellary_part{
+	background: #f6f9f9;
+	padding-bottom: 116px;
+}
+.gly_con{
+	text-align: center;
+}
+.gly_con h2{
+	font-size: 40px;
+	font-weight: 400;
+	color: #2d3950;
+}
+.gly_con p{
+	font-size: 15px;
+	color: #909090;
+	padding: 12px 0px 78px;
+}
+.gly_img{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.gly_overlay{
+	position: absolute;
+	top: 0;
+	left: 5;
+	height: 260px;
+	width: 360px;
+	background:rgba(30, 167, 194, 0.49);
+	opacity: 0;
+}
+.gly_overlay:hover{
+	opacity: 1;
+	transition: .4s;
+}
+.gly_overlay a i{
+	
+	padding: 14px;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.gly_overlay a i:hover{
+	border: 1px solid #1ea7c2;
+	background:#1ea7c2;
+}
+.gly_overlay .first{
+	/*margin-right: 20px;*/
+	position: absolute;
+	top: 50%;
+	left: 55%;
+	transform: rotate(90deg);
+}
+.gly_overlay .second{
+	/*margin-right: 20px;*/
+	position: absolute;
+	top: 50%;
+	left: 40%;
+}
+.row2{
+	margin-top: 20px;
+}
+/*gellary part end*/
+/*massage part start*/
+.massage_part{
+	background: #2d394d;
+}
+.mas_con{
+	text-align: center;
+}
+.mas_con h2{
+	font-size: 41px;
+	font-weight: 400;
+	color: #fff;
+	padding-top: 65px;
+}
+.mas_con p{
+	font-size: 15px;
+	font-weight: 400;
+	color: #999999;
+	padding: 12px 0px 47px;
+}
+.massage_part .box{
+	height: 60px;
+	width: 554px;
+	border: none;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	background: rgba(45, 57, 77, .9);
+	color: #999999;
+}
+.massage_part .box3{
+	margin-top: 20px;
+}
+.massage_part textarea{
+	margin-top: 20px;
+	border: none;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	background: rgba(45, 57, 77, .9);
+	color: #999999;
+	resize: none;
+}
+.check_box{
+	padding-top: 18px;
+	padding-bottom: 108px;
+}
+.c_box{
+	margin-left: -15px;
+}
+.f_box{
+	font-weight: 400;
+	font-size: 15px;
+	color: #fff;
+	margin-left: 5px;
+	/*margin-left: -10px;*/
+}
+.f_button{
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+	padding: 9px 50px;
+	border: none;
+	border: 1px solid #15a4fa;
+	border-radius: 5px;
+	background: rgba(0, 0, 0, .1);
+	margin-left: 56px;
+	transition: .4s;
+}
+.f_button:hover{
+	background-color: #15a4fa;
+}
+/*massage part end*/
+/*footer part start*/
+.footer_part{
+	padding: 25px 0px;
+	background: #f6f9f9;
+}
+.footer_part p{
+	font-size: 15px;
+	color: #999999;
+	margin-top: 10px;
+}
+.foot_overlay{
+	height: 40px;
+	width: 40px;
+	background: #15a4fa;
+	position: relative;
+}
+.foot_overlay i{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	cursor: pointer;
+}
+.foot_ibox{
+	margin-right: 5px;
+}
+/*footer part end*/
